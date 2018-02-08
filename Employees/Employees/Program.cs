@@ -10,12 +10,14 @@ namespace Employees
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("***** The Employee Hierarchy *****\n");
+            /*Console.WriteLine("***** The Employee Hierarchy *****\n");
 
             Salesperson fred = new Salesperson();
             fred.Age = 31;
             fred.Name = "Fred";
-            fred.SalesNumber = 50;
+            fred.SalesNumber = 50;*/
+
+            Manager chucky = new Manager("Chucky", 50, 92, 1000000, "333-23-2322", 9000);
             Console.ReadLine();
         }
     }

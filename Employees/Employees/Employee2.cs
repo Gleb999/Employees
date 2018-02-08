@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Employees
 {
-    class Employee2
+    partial class Employee2
     {
-        private string empName;
-        private int empID;
-        private float currPay;
-        public string value;
-        private int empAge;
-        private string empSSN;
-        public int Age
+        protected string empName;
+        protected int empID;
+        protected float currPay;
+        protected string value;
+        protected int empAge;
+        protected string empSSN;
+        protected int Age
         {
             get { return empAge; }
             set { empAge = value; }
